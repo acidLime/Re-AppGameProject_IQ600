@@ -26,7 +26,7 @@ public class MapManager : MonoBehaviour
         {
             for(int j = 0; j < mapSize; j++)
             {
-
+                tile[i, j].TileType = eTileType.NORMAL;
             }
         }
     }
